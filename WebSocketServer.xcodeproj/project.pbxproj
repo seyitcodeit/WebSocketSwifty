@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		2EA892BD25069F290094353A /* auth.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = auth.py; sourceTree = "<group>"; };
+		2EA892BE25069F290094353A /* handshake.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = handshake.py; sourceTree = "<group>"; };
+		2EA892BF25069F290094353A /* server.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = server.py; sourceTree = "<group>"; };
+		2EA892C025069F290094353A /* streams.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = streams.py; sourceTree = "<group>"; };
+		2EA892C125069F290094353A /* version.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = version.py; sourceTree = "<group>"; };
+		2EA892C225069F290094353A /* speedups.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = speedups.c; sourceTree = "<group>"; };
+		2EA892C325069F290094353A /* http_legacy.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = http_legacy.py; sourceTree = "<group>"; };
+		2EA892C425069F290094353A /* protocol.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = protocol.py; sourceTree = "<group>"; };
+		2EA892C525069F290094353A /* client.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = client.py; sourceTree = "<group>"; };
+		2EA892C625069F290094353A /* handshake_legacy.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = handshake_legacy.py; sourceTree = "<group>"; };
+		2EA892C725069F290094353A /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		2EA892C925069F290094353A /* permessage_deflate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = permessage_deflate.py; sourceTree = "<group>"; };
+		2EA892CA25069F290094353A /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		2EA892CB25069F290094353A /* base.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = base.py; sourceTree = "<group>"; };
+		2EA892CC25069F290094353A /* http11.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = http11.py; sourceTree = "<group>"; };
+		2EA892CD25069F290094353A /* connection.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = connection.py; sourceTree = "<group>"; };
+		2EA892CE25069F290094353A /* frames.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = frames.py; sourceTree = "<group>"; };
+		2EA892CF25069F290094353A /* utils.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = utils.py; sourceTree = "<group>"; };
+		2EA892D025069F290094353A /* asyncio_client.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = asyncio_client.py; sourceTree = "<group>"; };
+		2EA892D125069F290094353A /* uri.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = uri.py; sourceTree = "<group>"; };
+		2EA892D225069F290094353A /* http.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = http.py; sourceTree = "<group>"; };
+		2EA892D325069F290094353A /* py.typed */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = py.typed; sourceTree = "<group>"; };
+		2EA892D425069F290094353A /* framing.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = framing.py; sourceTree = "<group>"; };
+		2EA892D525069F290094353A /* exceptions.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = exceptions.py; sourceTree = "<group>"; };
+		2EA892D625069F290094353A /* headers.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = headers.py; sourceTree = "<group>"; };
+		2EA892D725069F290094353A /* datastructures.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = datastructures.py; sourceTree = "<group>"; };
+		2EA892D825069F290094353A /* typing.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = typing.py; sourceTree = "<group>"; };
+		2EA892D925069F290094353A /* __main__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __main__.py; sourceTree = "<group>"; };
+		2EA892DA25069F290094353A /* asyncio_server.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = asyncio_server.py; sourceTree = "<group>"; };
+		2EA892DB25069F290094353A /* speedups.pyi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = speedups.pyi; sourceTree = "<group>"; };
+		2EA892DD25069F980094353A /* server.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = server.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2EA892B125069EFC0094353A = {
+			isa = PBXGroup;
+			children = (
+				2EA892DD25069F980094353A /* server.py */,
+				2EA892BC25069F290094353A /* websockets */,
+			);
+			sourceTree = "<group>";
+		};
+		2EA892BC25069F290094353A /* websockets */ = {
+			isa = PBXGroup;
+			children = (
+				2EA892BD25069F290094353A /* auth.py */,
+				2EA892BE25069F290094353A /* handshake.py */,
+				2EA892BF25069F290094353A /* server.py */,
+				2EA892C025069F290094353A /* streams.py */,
+				2EA892C125069F290094353A /* version.py */,
+				2EA892C225069F290094353A /* speedups.c */,
+				2EA892C325069F290094353A /* http_legacy.py */,
+				2EA892C425069F290094353A /* protocol.py */,
+				2EA892C525069F290094353A /* client.py */,
+				2EA892C625069F290094353A /* handshake_legacy.py */,
+				2EA892C725069F290094353A /* __init__.py */,
+				2EA892C825069F290094353A /* extensions */,
+				2EA892CC25069F290094353A /* http11.py */,
+				2EA892CD25069F290094353A /* connection.py */,
+				2EA892CE25069F290094353A /* frames.py */,
+				2EA892CF25069F290094353A /* utils.py */,
+				2EA892D025069F290094353A /* asyncio_client.py */,
+				2EA892D125069F290094353A /* uri.py */,
+				2EA892D225069F290094353A /* http.py */,
+				2EA892D325069F290094353A /* py.typed */,
+				2EA892D425069F290094353A /* framing.py */,
+				2EA892D525069F290094353A /* exceptions.py */,
+				2EA892D625069F290094353A /* headers.py */,
+				2EA892D725069F290094353A /* datastructures.py */,
+				2EA892D825069F290094353A /* typing.py */,
+				2EA892D925069F290094353A /* __main__.py */,
+				2EA892DA25069F290094353A /* asyncio_server.py */,
+				2EA892DB25069F290094353A /* speedups.pyi */,
+			);
+			path = websockets;
+			sourceTree = "<group>";
+		};
+		2EA892C825069F290094353A /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2EA892C925069F290094353A /* permessage_deflate.py */,
+				2EA892CA25069F290094353A /* __init__.py */,
+				2EA892CB25069F290094353A /* base.py */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		2EA892B625069EFC0094353A /* WebSocketServer */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 2EA892B925069EFC0094353A /* Build configuration list for PBXLegacyTarget "WebSocketServer" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/python3;
+			dependencies = (
+			);
+			name = WebSocketServer;
+			passBuildSettingsInEnvironment = 1;
+			productName = WebSocketServer;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		2EA892B225069EFC0094353A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Betbull;
+				TargetAttributes = {
+					2EA892B625069EFC0094353A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 2EA892B525069EFC0094353A /* Build configuration list for PBXProject "WebSocketServer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EA892B125069EFC0094353A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EA892B625069EFC0094353A /* WebSocketServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		2EA892B725069EFC0094353A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		2EA892B825069EFC0094353A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		2EA892BA25069EFC0094353A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2EA892BB25069EFC0094353A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EA892B525069EFC0094353A /* Build configuration list for PBXProject "WebSocketServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA892B725069EFC0094353A /* Debug */,
+				2EA892B825069EFC0094353A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EA892B925069EFC0094353A /* Build configuration list for PBXLegacyTarget "WebSocketServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA892BA25069EFC0094353A /* Debug */,
+				2EA892BB25069EFC0094353A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EA892B225069EFC0094353A /* Project object */;
+}
